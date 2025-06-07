@@ -162,7 +162,7 @@ body {
 
 
 /* Formularios */
-form {
+.form-1 {
     background-color: white;
     padding: 20px;
     max-width: 400px;
@@ -258,6 +258,7 @@ th {
 h2 {
     color: #4a90e2;
 }
+
 .info {
     color: #4a90e2;
     margin-bottom: 20px;
