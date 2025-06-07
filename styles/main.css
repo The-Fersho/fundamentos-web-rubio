@@ -1,8 +1,27 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
+}
+
+.relleno{
+    position: fixed;
+    background-color: #ffffff;
+    height: 9.4vh;
+    width: 100%;
+}
+
+.encabezado{
+    height: 3vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav{
+    position: fixed;
+    background-color: #ffffff;
 }
 
 .footer {
@@ -128,5 +147,10 @@ body {
 }
 
 .aside-2 {
+    display: grid;
+}
+
+
+.multi{
     display: grid;
 }

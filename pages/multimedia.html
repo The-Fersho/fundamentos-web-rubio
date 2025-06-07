@@ -15,18 +15,21 @@
 
 <body>
     <header>
+        <div class="relleno"></div>
         <div class="container">
-            <nav class="fixed-center">
-                <div class="row mt-5">
-                    <div class="col">
-                        <ul class="nav nav-tabs">
-                            <li><a href="../index.html" class="nav-link" aria-current="page">Inicio</a></li>
-                            <li><a href="/pages/formularios.html" class="nav-link">Formularios</a></li>
-                            <li><a href="#" class="nav-link active">Multimedia</a></li>
-                            <li><a href="/pages/tablas.html" class="nav-link">Tablas</a></li>
-                            <li><a href="/pages/listas.html" class="nav-link">Listas</a></li>
-                            <li><a href="/pages/semantica.html" class="nav-link">Semantica</a></li>
-                        </ul>
+            <nav>
+                <div class="encabezado">
+                    <div class="row mt-5">
+                        <div class="col">
+                            <ul class="nav nav-tabs">
+                                <li><a href="../index.html" class="nav-link" aria-current="page">Inicio</a></li>
+                                <li><a href="/pages/formularios.html" class="nav-link">Formularios</a></li>
+                                <li><a href="#" class="nav-link active">Multimedia</a></li>
+                                <li><a href="/pages/tablas.html" class="nav-link">Tablas</a></li>
+                                <li><a href="/pages/listas.html" class="nav-link">Listas</a></li>
+                                <li><a href="/pages/semantica.html" class="nav-link">Semantica</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -34,36 +37,29 @@
     </header>
     <main class="centroPag">
 
-        <h1>Bienvenido a mi página multimedia!</h1>
+        <div class="multi">
+            <h3>Todo el contenido multimedia aqui</h3>
 
-        <!-- Imagen -->
-        <img src="../assets/images/luz texto.png" alt="img" width="500" height="300">
+            <!-- Imagen -->
+            <figure>
+                <img src="../assets/images/luz texto.png" alt="img" width="500" height="300">
+                <figcaption>Una imagen de prueba</figcaption>
+            </figure>
 
-        <!-- Video -->
-        <video width="640" height="360" controls>
-            <source src="../assets/videos/mario.mp4" type="video/mp4">
-        </video>
+            <!-- Video -->
+            <video width="640" height="360" controls>
+                <source src="../assets/videos/mario.mp4" type="video/mp4">
+            </video>
 
-        <!-- Audio -->
-        <audio controls>
-            <source src="../assets/audios/tadow.mp3" type="audio/mp3">
-        </audio>
+            <!-- Audio -->
+            <audio controls>
+                <source src="../assets/audios/tadow.mp3" type="audio/mp3">
+            </audio>
 
-        <!-- Incrustación de contenido (ejemplo: YouTube) -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
-            allowfullscreen></iframe>
-
-        <!-- Texto con formato -->
-        <p>Este es un párrafo de ejemplo con formato. <b>Texto en negrita</b> y <i>texto en cursiva</i>.</p>
-
-        <!-- Enlace a otra página -->
-        <a href="otra_pagina.html">Ir a otra página</a>
-
-        <div class="col-12">
-            <img src="https://via.placeholder.com/400x300" alt="Imagen de placeholder" class="img-fluid" />
-            <p>Este es un párrafo de ejemplo con una imagen de placeholder.</p>
+            <!-- Incrustación de contenido (ejemplo: YouTube) -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
+                allowfullscreen></iframe>
         </div>
-
     </main>
     <footer class="footer">
         <div class="container">
