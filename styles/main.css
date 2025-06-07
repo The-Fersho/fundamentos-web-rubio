@@ -6,6 +6,12 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
 .relleno{
     position: fixed;
     background-color: #ffffff;
@@ -24,6 +30,8 @@ body {
     background-color: #ffffff;
 }
 
+
+/* Footer */
 .footer {
     box-sizing: border-box;
     text-decoration: none;
@@ -93,11 +101,9 @@ body {
 
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
+
+/* Semantica */
 .centroPag {
     padding: 30px;
 }
@@ -154,3 +160,33 @@ body {
 .multi{
     display: grid;
 }
+
+
+/* Formularios */
+form {
+            background-color: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        label {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
